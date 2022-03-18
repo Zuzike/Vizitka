@@ -1,3 +1,64 @@
-* {
+*,
+:after,
+:before {
   box-sizing: border-box;
+}
+
+html {
+  background-image: url('pozadie.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+main {
+  background-color: rgb(179, 247, 224);
+  opacity: 70%;
+  padding-top: 1rem;
+  padding-bottom: 0.1rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+footer {
+  max-width: 500px;
+  margin: auto;
+  padding: 0.3rem;
+  border-radius: 15px;
+  background-color: rgb(179, 247, 224);
+  opacity: 70%;
+}
+h1 {
+  color: rgb(39, 119, 119);
+  /*background-image: image 20210819_180442;*/
+}
+section {
+  text-align: center;
+}
+
+ol {
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+ul li {
+  font-weight: bold;
+}
+.foto {
+  border-radius: 10px;
+}
+a:hover {
+  color: chocolate;
 }
